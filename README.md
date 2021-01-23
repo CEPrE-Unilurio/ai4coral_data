@@ -5,7 +5,7 @@
 Repository to add the code and manage and produce the data pipeline for training data.
 
 # context
-[TODO]
+![Alt text](coral_ai_data.png?raw=true "Title")
 
 # goal
 Make and run datapipelines for training on for underwater_od modelling package.
