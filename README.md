@@ -1,10 +1,20 @@
 # ai4coral_data
+<p align="center">
+  <a href="https://typer.tiangolo.com"><img src="https://cdn4.iconfinder.com/data/icons/technology-83/1000/technology_app_system_grid_system_grid_data_water-128.png" alt="AI Coral Data"></a>
+</p>
+<p align="center">
+    <em>Data plumbing CLI for the AI Coral Project.</em>
+</p>
+<p align="center">
+<a href="https://github.com/CEPrE-Unilurio/ai4coral_data/actions?query=workflow%3ATest" target="_blank">
+    <img src="https://github.com/tiangolo/typer/workflows/Test/badge.svg" alt="Test">
+</a>
+</p>
 
-![alt text](https://cdn4.iconfinder.com/data/icons/technology-83/1000/technology_app_system_grid_system_grid_data_water-128.png)
+---
 
-Repository to add the code and manage and produce the data pipeline for training data.
 
-# context
+# overview
 ![Alt text](coral_ai_data.png?raw=true "Title")
 
 # goal
