@@ -1,4 +1,5 @@
 # ai4coral_data
+![alt text](https://cdn4.iconfinder.com/data/icons/technology-83/1000/technology_app_system_grid_system_grid_data_water-128.png)
 Repository to add the code and manage and produce the data pipeline for training data.
 
 # goal
