@@ -6,12 +6,11 @@
     <em>Data plumbing CLI for the AI Coral Project.</em>
 </p>
 <p align="center">
-<a href="https://github.com/CEPrE-Unilurio/ai4coral_data/actions?query=workflow%3ATest" target="_blank">
+<a href="https://github.com/CEPrE-Unilurio/ai4coral_data/actions?query=workflow:'Ai Coral Data Python package'" target="_blank">
     <img src="https://github.com/tiangolo/typer/workflows/Test/badge.svg" alt="Test">
 </a>
 </p>
 
----
 
 
 # overview
