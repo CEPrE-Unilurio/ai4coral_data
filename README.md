@@ -21,5 +21,6 @@ Make and run datapipelines for training on for underwater_od modelling package.
 
 # features
 1. Produce training data in Tensorflow format based on Raspberry PI data from the data acquisition mechanism
+2. Deal with annotation system
 
 
