@@ -34,7 +34,6 @@ def sa_convert_2_coco(project_folder:str, destination:str,format='COCO',
         project_type,
         task
     )
-    pass
     
 
 def convert_coco_2_tfrecords(project_folder:str, destination:str):
