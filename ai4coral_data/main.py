@@ -1,4 +1,5 @@
 import fire
+import fire
 import superannotate as sa
 
 
@@ -7,11 +8,11 @@ def sa_upload_image_folder_files(project_name:str, source:str,conf_path:str="./c
     sa.init(conf_path)
 
     uploaded, skipped, duplicate = sa.upload_images_from_folder_to_project(
-        project_name = project_name,
+        project = project_name,
         folder_path = source,
         recursive_subfolders = True)
 
-def sa_download_files(project_name:str, destination:str=".", conf_path:object="./conf.json", ) :
+def sa_download_files(project_name:str, destination:str="./downloads", conf_path:object="./conf.json", ) :
 
     sa.init(conf_path)
 
@@ -19,9 +20,10 @@ def sa_download_files(project_name:str, destination:str=".", conf_path:object=".
 
     sa.download_export(
         project = project_name,
-        export = destination,
+        export = export,
         folder_path = destination)
 
+#Not complete
 def sa_convert_2_coco(project_folder:str, destination:str,format='COCO',
     project_type='Vector', 
     dataset_name='ai_coral',

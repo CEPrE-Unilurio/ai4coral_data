@@ -128,3 +128,4 @@ config.json
 
 # Pyre type checker
 .pyre/
+conf.bak
