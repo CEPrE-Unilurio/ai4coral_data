@@ -1,0 +1,5 @@
+{
+    "token": "REDACTED",
+    "main_endpoint": "https://api.annotate.online",
+    "ssl_verify": true
+}

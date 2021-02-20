@@ -23,4 +23,15 @@ Make and run datapipelines for training on for underwater_od modelling package.
 1. Produce training data in Tensorflow format based on Raspberry PI data from the data acquisition mechanism
 2. Deal with annotation system
 
+# how to use it
+
+1. Clone the repo
+
+2. CD into the main folder
+
+3. Create a config.json copied from conf.json and add the right token
+
+4. To download data : `python aicoral_data/main.py sa_download_files "Test Project"`
+
+4. To upload data : `python ai4coral_data/main.py sa_upload_image_folder_files "Test Project" ./Downloads`
 
