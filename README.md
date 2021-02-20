@@ -29,7 +29,7 @@ Make and run datapipelines for training on for underwater_od modelling package.
 
 2. CD into the main folder
 
-3. Update conf.json with the right token
+3. Create a config.json copied from conf.json and add the right token
 
 4. To download data : `python aicoral_data/main.py sa_download_files "Test Project"`
 
