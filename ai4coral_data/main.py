@@ -6,7 +6,7 @@ import superannotate as sa
 def sa_upload_image_folder_files(
     project_name: str,
     source: str,
-    conf_path: str = "./conf.json",
+    conf_path: str = "./config.json",
 ):
 
     sa.init(conf_path)
@@ -19,7 +19,7 @@ def sa_upload_image_folder_files(
 def sa_download_files(
     project_name: str,
     destination: str = "./downloads",
-    conf_path: object = "./conf.json",
+    conf_path: object = "./config.json",
 ):
 
     sa.init(conf_path)
@@ -37,7 +37,7 @@ def sa_convert_2_coco(
     project_type="Vector",
     dataset_name="ai_coral",
     task="object_detection",
-    conf_path: str = "./conf.json",
+    conf_path: str = "./config.json",
 ):
     sa.export_annotation(
         project_folder, destination, format, dataset_name, project_type, task
