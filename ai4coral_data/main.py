@@ -14,6 +14,7 @@ def sa_upload_image_folder_files(
     uploaded, skipped, duplicate = sa.upload_images_from_folder_to_project(
         project=project_name, folder_path=source, recursive_subfolders=True
     )
+    print("Uploaded {} , Skipped {}, Duplicate {}".format(len(uploaded), len(skipped), len(duplicate)))
 
 
 def sa_download_files(
